@@ -3,7 +3,7 @@ const express = require('express');
 const { resolve } = require('path');
 
 const app = express()
-
+const host = '0.0.0.0';
 app.use('/',
   express.static(
     resolve(
@@ -13,7 +13,7 @@ app.use('/',
   )
 )
 
-app.listen(process.env.PORT || 3000, (err) => {
+app.listen(host, process.env.PORT || 6000, (err) => {
   if(err) {
     return console.log(err)
   }
