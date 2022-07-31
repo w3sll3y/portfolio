@@ -2,7 +2,7 @@
   "name": "portifolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://w3sll3y.github.io/portfolio",
+  "homepage": "github-page/",
   "type": "module",
   "scripts": {
     "dev": "vite",
