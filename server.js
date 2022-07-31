@@ -2,8 +2,10 @@ const express = require('express');
 
 const { resolve } = require('path');
 
+var port = process.env.PORT || 8000;
+var host = process.env.YOUR_HOST || '0.0.0.0';
+
 const app = express()
-const host = '0.0.0.0';
 app.use('/',
   express.static(
     resolve(
@@ -13,7 +15,7 @@ app.use('/',
   )
 )
 
-app.listen(host, process.env.PORT || 6000, (err) => {
+app.listen(port, host, (err) => {
   if(err) {
     return console.log(err)
   }
