@@ -1,8 +1,8 @@
 {
-  "name": "Portifolio",
+  "name": "portifolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://w3sll3y.github.i0/portfolio",
+  "homepage": "http://w3sll3y.github.io/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
