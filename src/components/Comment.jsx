@@ -1,4 +1,3 @@
-import { Trash, ThumbsUp } from 'phosphor-react';
 import { Avatar } from './Avatar';
 import styles from './Comment.module.css';
 

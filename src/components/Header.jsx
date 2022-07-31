@@ -1,4 +1,4 @@
-import styles from './Header.module.css';
+import styles from './HeaderMod.module.css';
 
 import igniteLogo from '../assets/coruja.png';
 
