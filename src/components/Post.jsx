@@ -19,7 +19,7 @@ export function Post() {
 
       <div className={styles.content}>
         <p>Hii there 👋! </p>
-        <p>I'm Wesley, and currently i work with QA, and i work with tests in mobile, android and iOS, and my free time, i job with fullstack web develop.</p>
+        <p>My name is Wesley and I'm currently working as a QA testing mobile applications using Android and iOS technology. In my free time I like to work on personal projects as a Web Developer.</p>
         <p>Next a little about my experience and skills 🚀</p>
       </div>
 
