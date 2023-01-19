@@ -15,7 +15,7 @@ export function Sidebar() {
         />
 
         <strong>Wesley Fernandes</strong>
-        <span>QA and Web develop</span>
+        <span>Mobile and Web developer</span>
       </div>
 
       <footer>
