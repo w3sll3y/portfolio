@@ -6,7 +6,7 @@ export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
       <img className={styles.cover}
-        src="https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=50"
+        src="https://media.licdn.com/dms/image/D4D16AQGoULsLpXbqQQ/profile-displaybackgroundimage-shrink_350_1400/0/1697847689230?e=1703116800&v=beta&t=qxMlL0ZnMav5m6zmgzHyLFiY8lmJy_TipAJvgNnAYvo"
       />
 
       <div className={styles.profile}>
@@ -15,7 +15,28 @@ export function Sidebar() {
         />
 
         <strong>Wesley Fernandes</strong>
-        <span>Mobile and Web developer</span>
+        <span>Software Engineer</span>
+        <a
+          style={{ color: 'inherit', fontStyle: 'italic' }}
+          href='https://www.credly.com/badges/6930c355-ded7-445b-a34d-1811f7f7cca2/public_url'
+          target='blank'
+        >
+          <span>CLF-C01</span>
+        </a>
+        <a
+          style={{ textDecoration: 'none', color: 'inherit', marginTop: ' 5px' }}
+          href='https://www.credly.com/badges/6930c355-ded7-445b-a34d-1811f7f7cca2/public_url'
+          target='blank'
+        >
+          <span>
+            <img
+              width={50}
+              height={50}
+              hasBorder={false}
+              src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+            />
+          </span>
+        </a>
       </div>
 
       <footer>
